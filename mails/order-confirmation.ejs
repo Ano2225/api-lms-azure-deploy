@@ -20,7 +20,7 @@
         height: 100vh;
         margin: 0 auto;
         padding: 20px;
-        background-color: #4f5ef1;
+        background-color: #A66A02;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         color: #ffffff;
       }
@@ -146,28 +146,28 @@
   <body>
     <div class="container">
       <div class="message-sm">
-        <h1>Your ELearning order is confirmed!</h1>
-        <p>And we're just as excited as you are.</p>
+        <h1>Votre commande est confirmée !</h1>
+        <p>Et nous sommes tout aussi excités que vous.</p>
       </div>
       <br>
       <br>
       <div class="course-info">
-        <h4>Here's what you ordered:</h4>
+        <h4>Voici ce que vous avez commandé :</h4>
          <table style="border-bottom: 1px solid #0000002f;">
             <tr>
                 <td>
-                    Order #: <%= order._id %>
+                    N° de commande : <%= order._id %>
                 </td>
                 <td>
-                        Order Date: <%= order.date %>
+                        Date de commande : <%= order.date %>
                 </td>
             </tr>
          </table>
         <table style="width: 90%; margin: auto; display: block">
           <tr>
-            <td class="first-td">Item</td>
-            <td class="first-td">Qty</td>
-            <td class="first-td">cost</td>
+            <td class="first-td">Article</td>
+            <td class="first-td">Qté</td>
+            <td class="first-td">Coût</td>
           </tr>
         </table>
 
@@ -183,23 +183,23 @@
         style="border-top: 1px solid #00000029;"
         >
           <tr>
-            <td class="col-2">Subtotal:</td>
+            <td class="col-2">Sous-total :</td>
             <td class="col-2">$<%= order.price %></td>
           </tr>
         </table>
         <table class="table-row" style="margin-top: -20px;">
             <tr>
-                <td class="col-2">Total:</td>
+                <td class="col-2">Total :</td>
                 <td class="col-2">$<%= order.price %></td>
               </tr>
         </table>
       </div>
       <div class="footer">
         <p>
-          If you have any questions, please contact our support team at
-          <a href="mailto:support@becodemy.com">support@becodemy.com</a>
+          Si vous avez des questions, veuillez contacter notre équipe de support à
+          <a href="mailto:contact@uriel-group.com">contact@uriel-group.com</a>
         </p>
-        <p>&copy; 2023 Elearning. All rights reserved.</p>
+        <p>&copy; 2023 Uriel Business School. Tous droits réservés.</p>
       </div>
     </div>
   </body>
